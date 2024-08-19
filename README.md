@@ -27,3 +27,18 @@ Live-Url: https://assignment-3-blond.vercel.app/
 ├── .env              
 ├── package.json      
 └── README.md         
+
+Authentication
+POST /api/auth/signup - Register a new user.
+POST /api/auth/signin - User login.
+Car Management (Admin Only)
+POST /api/cars - Create a new car entry.
+GET /api/cars - Retrieve all cars.
+GET /api/cars/:id - Retrieve a single car by its ID.
+PUT /api/cars/:id - Update car details by its ID.
+DELETE /api/cars/:id - Soft delete a car by its ID.
+PUT /api/cars/return - Process car return and update booking.
+Booking Management
+POST /api/bookings - Create a new booking (User only).
+GET /api/bookings - Retrieve all bookings (Admin only).
+GET /api/bookings/my-bookings - Retrieve user’s bookings (User only).
